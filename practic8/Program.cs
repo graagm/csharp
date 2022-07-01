@@ -140,8 +140,9 @@
 // }
 // Console.WriteLine();
 // foreach (var x in ms1.GroupBy(p => p))
+// {
 // 	Console.WriteLine("{0} => {1}", x.Key, x.Count());
-
+// }
 
 // Задача 59
 
@@ -227,12 +228,12 @@
 //     int probel = N - M;
 //     for (int z=0; z<probel; z++)
 //     {
-//         Console.Write("  ");
+//         Console.Write("\t");
 //     }
 //     for (int j=0; j<M; j++)
 //     {
 
-//         Console.Write($"{ms[j]}   ");
+//         Console.Write($"{ms[j]}\t\t");
 //     }
 //     Console.WriteLine();
 //     Array.Resize(ref ms1, M);
@@ -240,5 +241,5 @@
 //     {
 //         ms1[j] = ms[j];
 //     }
-}
+// }
 
